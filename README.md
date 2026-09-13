@@ -1,13 +1,21 @@
-# Logistic-Regresssion-on-Advertising-Dataset
+**📌 Logistic Regression on Advertising Dataset**
+✨ Project Highlights
+✅ End-to-End ML Workflow (EDA → Preprocessing → Modeling → Evaluation)
 
-Logistic Regression on Advertising Dataset
-📌 Project Overview
-This project demonstrates how to apply Logistic Regression to the classic Advertising dataset to predict whether a user will click on an advertisement based on demographic and behavioral features. It is a beginner-friendly machine learning project that covers the full workflow — from data exploration to model evaluation.
+📊 Clean visualizations for feature insights
+
+🎯 Actionable results for marketing strategies
+
+🧑‍💻 Beginner-friendly, easy to reproduce
+
+📖 Overview
+This project applies Logistic Regression to the Advertising dataset to predict whether a user will click on an advertisement based on demographic and behavioral features.
+It demonstrates the complete machine learning pipeline — from data exploration to model evaluation.
 
 📊 Dataset
 Source: Advertising dataset (commonly used in ML tutorials on Kaggle, Udemy, Coursera).
 
-Features include:
+Features:
 
 Daily Time Spent on Site
 
@@ -19,28 +27,30 @@ Daily Internet Usage
 
 Male (binary gender indicator)
 
-Clicked on Ad (target variable: 0 = No, 1 = Yes)
+Target Variable:
+
+Clicked on Ad → 0 (No), 1 (Yes)
 
 ⚙️ Workflow
-Data Loading & Exploration
+🔍 Data Exploration (EDA)
 
-Import dataset using Pandas.
+Visualize distributions and relationships using Seaborn & Matplotlib.
 
-Perform exploratory data analysis (EDA) with visualizations.
+Identify correlations between features and ad-click behavior.
 
-Preprocessing
+🛠️ Preprocessing
 
 Handle categorical/numeric features.
 
-Split data into training and testing sets.
+Split dataset into training and testing sets.
 
-Model Building
+🤖 Model Building
 
 Train a Logistic Regression model using scikit-learn.
 
 Fit the model on training data.
 
-Evaluation
+📈 Evaluation
 
 Accuracy score
 
@@ -48,19 +58,19 @@ Confusion matrix
 
 Classification report (precision, recall, F1-score)
 
-ROC curve and AUC
+ROC curve & AUC
 
-Insights
+💡 Insights
 
-Identify which features influence ad-click behavior.
+Age and Daily Internet Usage strongly influence ad-click behavior.
 
-Discuss business implications.
+Logistic Regression provides interpretable results for marketing strategies.
 
 🛠️ Technologies Used
 Python 3
 
-Pandas, NumPy for data handling
+Pandas, NumPy → Data handling
 
-Matplotlib, Seaborn for visualization
+Matplotlib, Seaborn → Visualization
 
-Scikit-learn for model building and evaluation
+Scikit-learn → Model building & evaluation
